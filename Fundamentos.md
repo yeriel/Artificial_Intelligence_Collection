@@ -35,7 +35,46 @@ Los algoritmos de machine learning pueden categorizarse ampliamente como supervi
 
 - **Aprendizaje supervisado** experimentan con un conjunto de datos que contiene características, pero cada ejemplo también está asociado con una etiqueta o un objetivo.
 
-## Function Loss o función de coste
+## Algoritmos Paramétricos y No paramétricos
+### Paramétricos
+Los algoritmos que simplifican la función a una forma conocida se llaman algoritmos paramétricos.
+
+    Un modelo de aprendizaje que resume los datos con un conjunto de parámetros de tamaño fijo (independiente del número de ejemplos de entrenamiento) se llama modelo paramétrico. No importa cuántos datos se proporcionen a un modelo paramétrico, no cambiará la cantidad de parámetros que necesita.
+
+    - Inteligencia artificial: un enfoque moderno, página 737.
+
+#### Beneficios
+
+- **Simplicidad:** estos métodos son más fáciles de entender e interpretar los resultados.
+- **Velocidad:** los modelos paramétricos son muy rápidos para aprender a partir de los datos.
+- **Menos Datos:** no requieren tantos datos de entrenamiento y pueden funcionar bien incluso si el ajuste a los datos no es perfecto.
+
+#### Limitaciones
+
+- **Restringidos:** al elegir una forma funcional, estos métodos están altamente restringidos a la forma especificada.
+- **Complejidad Limitada:** estos métodos son más adecuados para problemas más simples.
+- **Mal Ajuste:** en la práctica, estos métodos es poco probable que coincidan con la función de asignación subyacente.
+
+### No paramétricos
+Los algoritmos que no hacen supuestos fuertes sobre la forma de la función de asignación se llaman no paramétricos. Al no hacer supuestos, son libres de aprender cualquier forma funcional a partir de los datos de entrenamiento.
+
+    Los métodos no paramétricos son buenos cuando se dispone de mucha información y no se tiene conocimiento previo, y cuando no se quiere preocuparse demasiado por elegir las características adecuadas. 
+    
+    - Inteligencia Artificial: Un enfoque moderno, página 757.
+
+#### Beneficios
+
+- **Flexibilidad:** Capaces de ajustarse a una gran cantidad de formas funcionales.
+- **Potencia:** No hacen suposiciones (o suposiciones débiles) sobre la función subyacente.
+- **Rendimiento:** Pueden resultar en modelos de predicción con un rendimiento más alto.
+
+#### Limitaciones
+
+- **Más datos:** Requieren muchos más datos de entrenamiento para estimar la función de asignación.
+- **Más lentos:** Son mucho más lentos para entrenar, ya que a menudo tienen muchos más parámetros que entrenar.
+- **Sobreajuste:** Mayor riesgo de sobreajuste a los datos de entrenamiento y es más difícil explicar por qué se hacen predicciones específicas.
+
+## Function Loss o Función de coste
 La función de coste es una medida que se utiliza para evaluar el rendimiento de un modelo. Esta es una función matemática que calcula la diferencia entre las predicciones del modelo y los valores reales del conjunto de datos.
 
 El objetivo del modelo es minimizar la función de coste para que pueda hacer predicciones precisas en los nuevos datos. El proceso de entrenamiento del modelo implica ajustar los parámetros del modelo para minimizar dicha función.
@@ -50,7 +89,7 @@ Existen diferentes tipos de funciones de coste y la elección de esta depende de
 
 - **Pérdida de Huber (Huber loss):** común para problemas de regresión. Es una combinación de la pérdida cuadrática y la pérdida absoluta, y se utiliza para reducir la sensibilidad del modelo a los valores atípicos (outliers)
 
-## Hiperparámetros y conjunto de validación
+## Hiperparámetros y Conjunto de validación
 Los hiperparámetros (hyperparameters) son variables ajustables que se utilizan para controlar el rendimiento y la capacidad de los algoritmos de machine learning. Estos se definen antes del entrenamiento del modelo y afectan directamente a este proceso y al resultado final del modelo.
 
 El conjunto de validación (validation set) es una parte del conjunto de datos que se utiliza para evaluar el rendimiento del modelo durante el entrenamiento. 
@@ -85,3 +124,21 @@ La regularización es una técnica que se utiliza para evitar el sobreajuste en 
 En ambos casos, el término de regularización es controlado por un hiperparámetro, comúnmente conocido como la fuerza de regularización o lambda ($\lambda$). Cuanto mayor sea el valor de lambda, más fuerte será el efecto de regularización y más complejo será el modelo. Encontrar el valor óptimo de lambda puede ser difícil y a menudo se hace mediante prueba y error o utilizando técnicas como la validación cruzada (cross-validation)
 
 En resumen la regularización ayuda a reducir la complejidad del modelo, limitando la magnitud de los parámetros del modelo y, por lo tanto, evita que el modelo se ajuste demasiado bien a los datos de entrenamiento. Esto permite que el modelo generalice mejor a los datos nuevos y desconocidos.
+
+## Maximum Likelihood Estimation
+Maximum Likelihood Estimation (MLE) es un método estadístico utilizado para encontrar los valores óptimos de los parámetros de un modelo de probabilidad, dados los datos observados. La idea fundamental detrás de la MLE es encontrar los valores de los parámetros que maximizan la probabilidad de que los datos observados hayan sido generados por el modelo.
+
+En términos más simples, la MLE es un enfoque que nos permite encontrar los valores de los parámetros del modelo que mejor explican los datos que tenemos disponibles. Por ejemplo, si tenemos una muestra de datos que creemos que se ajustan a una distribución normal, podemos utilizar la MLE para estimar los valores óptimos de la media y la desviación estándar de la distribución normal.
+
+### Propiedades
+- **Consistencia:** a medida que el tamaño de la muestra aumenta, la estimación de MLE se acerca al verdadero valor del parámetro de interés.
+
+- **Eficiencia:** la estimación de MLE es la que tiene la menor varianza posible en comparación con otras estimaciones no sesgadas.
+
+- **Asintóticamente normal:** en grandes muestras, la distribución de la estimación de MLE se aproxima a una distribución normal.
+
+- **Invarianza bajo reparametrización:** la estimación de MLE se mantiene invariable si se reparametriza el modelo de tal manera que el parámetro original se exprese como función de un nuevo parámetro.
+
+## Encales útiles
+- [Cheat Sheets for Machine Learning and Data Science](https://sites.google.com/view/datascience-cheat-sheets/machine-learning_1#h.h40dwqqwv30w)
+- [Machine Learning by SensioCoders](https://www.youtube.com/watch?v=rBySgwHSjIU&list=PLkgbkukKg_NrTyuscVmooZQwN9VWuLGuo&index=3&ab_channel=SensioCoders)
