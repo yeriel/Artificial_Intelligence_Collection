@@ -11,7 +11,14 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
 ## Contenido
 
 ### Fundamentos
-- 
+- ¿Que es el ML?
+- Algoritmos Paramétricos y No paramétricos
+- Function Loss o Función de coste
+- Hiperparámetros y Conjunto de validación
+- Capacity, Overfitting y Underfitting
+- Regularización
+- Maximum Likelihood Estimation
+- Encales útiles
 
 ### Algoritmos
 - K-Nearest Neighbors (KNN)
