@@ -125,20 +125,6 @@ En ambos casos, el término de regularización es controlado por un hiperparáme
 
 En resumen la regularización ayuda a reducir la complejidad del modelo, limitando la magnitud de los parámetros del modelo y, por lo tanto, evita que el modelo se ajuste demasiado bien a los datos de entrenamiento. Esto permite que el modelo generalice mejor a los datos nuevos y desconocidos.
 
-## Maximum Likelihood Estimation
-Maximum Likelihood Estimation (MLE) es un método estadístico utilizado para encontrar los valores óptimos de los parámetros de un modelo de probabilidad, dados los datos observados. La idea fundamental detrás de la MLE es encontrar los valores de los parámetros que maximizan la probabilidad de que los datos observados hayan sido generados por el modelo.
-
-En términos más simples, la MLE es un enfoque que nos permite encontrar los valores de los parámetros del modelo que mejor explican los datos que tenemos disponibles. Por ejemplo, si tenemos una muestra de datos que creemos que se ajustan a una distribución normal, podemos utilizar la MLE para estimar los valores óptimos de la media y la desviación estándar de la distribución normal.
-
-### Propiedades
-- **Consistencia:** a medida que el tamaño de la muestra aumenta, la estimación de MLE se acerca al verdadero valor del parámetro de interés.
-
-- **Eficiencia:** la estimación de MLE es la que tiene la menor varianza posible en comparación con otras estimaciones no sesgadas.
-
-- **Asintóticamente normal:** en grandes muestras, la distribución de la estimación de MLE se aproxima a una distribución normal.
-
-- **Invarianza bajo reparametrización:** la estimación de MLE se mantiene invariable si se reparametriza el modelo de tal manera que el parámetro original se exprese como función de un nuevo parámetro.
-
 ## Encales útiles
 - [Cheat Sheets for Machine Learning and Data Science](https://sites.google.com/view/datascience-cheat-sheets/machine-learning_1#h.h40dwqqwv30w)
 - [Machine Learning by SensioCoders](https://www.youtube.com/watch?v=rBySgwHSjIU&list=PLkgbkukKg_NrTyuscVmooZQwN9VWuLGuo&index=3&ab_channel=SensioCoders)
