@@ -29,6 +29,13 @@ función HILL_CLIMBING(poblema)
     if VALUE(vecino) <= VALUE(actual) then return actual
     actual <- vecino
 ```
+### Tipos de algoritmos de Hill Climbing
+
+**Hill Climbing Simple:** El método más simple de subir una colina se llama Hill Climbing Simple. El objetivo es ascender al pico más alto de la montaña. Aquí, los pasos y movimientos del escalador determinan cómo se mueve. Continúa moviéndose si cree que su próximo paso será mejor que el anterior, o si se queda en la misma posición. Esta búsqueda solo se preocupa por sus acciones previas y subsecuentes.
+
+**Hill Climbing Estocástico:** Los nodos no están todos concentrados en Hill Climbing estocástico. Elige un nodo al azar y luego determina si ampliarlo o buscar uno mejor.
+
+**Hill Climbing de Reinicio Aleatorio:** El enfoque de intentar una y otra vez es la base del algoritmo de reinicio aleatorio. Hasta que no se alcance el objetivo, busca iterativamente el nodo y elige el mejor candidato en cada etapa. Con frecuencia, el éxito se determina por la forma de la colina. Es más fácil llegar allí si no hay muchas crestas, mesetas o máximos locales.
 
 ## Simulated Annealing
 Simulated Annealing (SA) es una técnica probabilística para aproximar el óptimo global de una función dada en un espacio de búsqueda grande. Se usa comúnmente cuando el espacio de búsqueda es discreto y para problemas donde encontrar un óptimo global aproximado es más importante que encontrar un óptimo local preciso en un tiempo fijo. El nombre del algoritmo proviene del proceso de recocido en metalurgia, que involucra calentar y enfriar un material controladamente para alterar sus propiedades físicas.
