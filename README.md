@@ -11,37 +11,36 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
 ## Contenido
 
 ### Artificial Intelligence
-#### Fundamentos
-- ¿Qué es la inteligencia artificial?
-- Tipos de sistemas de Inteligencia Artificial
-- Artificial Intelligence vs Machine Learning vs Deep Learning
-- Algoritmos, Heuristica y Metaheuristica
-
-#### Algoritmos, Heuristica y Metaheuristica
-- Búsqueda local
-- Búsqueda informada
-- Computación Evolutiva
+* Fundamentos
+  - ¿Qué es la inteligencia artificial?
+  - Tipos de sistemas de Inteligencia Artificial
+  - Artificial Intelligence vs Machine Learning vs Deep Learning
+  - Algoritmos, Heuristica y Metaheuristica
+* Algoritmos, Heuristica y Metaheuristica
+  - Búsqueda local
+  - Búsqueda informada
+  - Computación Evolutiva
 
 ### Machine Learning
-#### Fundamentos
-- ¿Que es el ML?
-- Algoritmos Paramétricos y No paramétricos
-- Function Loss o Función de coste
-- Hiperparámetros y Conjunto de validación
-- Capacity, Overfitting y Underfitting
-- Regularización
-- Encales útiles
+* Fundamentos
+  - ¿Que es el ML?
+  - Algoritmos Paramétricos y No paramétricos
+  - Function Loss o Función de coste
+  - Hiperparámetros y Conjunto de validación
+  - Capacity, Overfitting y Underfitting
+  - Regularización
+  - Encales útiles
 
-#### Algoritmos ML
-- K-Nearest Neighbors (KNN)
-- Linear Regression
-- Logistic Regression
-- Naive Bayes
-- Support vector machine (SVM)
-- Decision Tree
--  Random Forest
-- Principal Component Analysis (PCA)
-- K-Means
-- AdaBoost
-- Linear Discriminant Analysis (LDA)
-- Perceptron
+* Algoritmos ML
+  - K-Nearest Neighbors (KNN)
+  - Linear Regression
+  - Logistic Regression
+  - Naive Bayes
+  - Support vector machine (SVM)
+  - Decision Tree
+  -  Random Forest
+  - Principal Component Analysis (PCA)
+  - K-Means
+  - AdaBoost
+  - Linear Discriminant Analysis (LDA)
+  - Perceptron
