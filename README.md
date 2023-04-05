@@ -11,14 +11,14 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
 ## Contenido
 
 ### Artificial Intelligence
-* Fundamentos
+* [Fundamentos](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Artificial_Intelligence)
   - ¿Qué es la inteligencia artificial?
   - Tipos de sistemas de Inteligencia Artificial
   - Artificial Intelligence vs Machine Learning vs Deep Learning
   - Algoritmos, Heuristica y Metaheuristica
-  
+
 * Algoritmos, Heuristica y Metaheuristica
-  - Búsqueda local
+  - [Búsqueda local](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Artificial_Intelligence/Busqueda%20local)
     * ¿Que es la búsqueda local?
     * Hill Climbing
     * Simulated Annealing
@@ -27,7 +27,7 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
   - Computación Evolutiva (ToDo)
 
 ### Machine Learning
-* Fundamentos
+* [Fundamentos](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning)
   - ¿Que es el ML?
   - Algoritmos Paramétricos y No paramétricos
   - Function Loss o Función de coste
@@ -36,15 +36,15 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
   - Regularización
   - Encales útiles
 
-* Algoritmos ML
-  - K-Nearest Neighbors (KNN)
+* [Algoritmos ML](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos)
+  - [K-Nearest Neighbors (KNN)](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/KNN)
   - Linear Regression (ToDo)
   - Logistic Regression (ToDo)
-  - Naive Bayes
+  - [Naive Bayes](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/Naive%20Bayes)
   - Support vector machine (SVM) (ToDo)
   - Decision Tree (ToDo)
   - Random Forest (ToDo)
-  - Principal Component Analysis (PCA)
+  - [Principal Component Analysis (PCA)](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/PCA)
   - K-Means (ToDo)
   - AdaBoost (ToDo)
   - Linear Discriminant Analysis (LDA) (ToDo)
