@@ -18,8 +18,12 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
   - Algoritmos, Heuristica y Metaheuristica
 * Algoritmos, Heuristica y Metaheuristica
   - Búsqueda local
-  - Búsqueda informada
-  - Computación Evolutiva
+    * ¿Que es la búsqueda local?
+    * Hill Climbing
+    * Simulated Annealing
+    * Tabu Search
+  - Búsqueda informada (ToDo)
+  - Computación Evolutiva (ToDo)
 
 ### Machine Learning
 * Fundamentos
@@ -33,14 +37,16 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
 
 * Algoritmos ML
   - K-Nearest Neighbors (KNN)
-  - Linear Regression
-  - Logistic Regression
+  - Linear Regression (ToDo)
+  - Logistic Regression (ToDo)
   - Naive Bayes
-  - Support vector machine (SVM)
-  - Decision Tree
-  -  Random Forest
+  - Support vector machine (SVM) (ToDo)
+  - Decision Tree (ToDo)
+  - Random Forest (ToDo)
   - Principal Component Analysis (PCA)
-  - K-Means
-  - AdaBoost
-  - Linear Discriminant Analysis (LDA)
-  - Perceptron
+  - K-Means (ToDo)
+  - AdaBoost (ToDo)
+  - Linear Discriminant Analysis (LDA) (ToDo)
+  - Perceptron (ToDo)
+
+### Deep Learning (ToDo)
