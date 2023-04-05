@@ -61,4 +61,43 @@ La búsqueda Tabu es un método de búsqueda heurístico para resolver problemas
 
 En la búsqueda Tabu, el algoritmo comienza con una solución inicial y genera e evalúa iterativamente soluciones vecinas, seleccionando la mejor como la solución actual. Durante este proceso, el algoritmo mantiene una lista tabu, que almacena las soluciones visitadas recientemente y sus movimientos correspondientes. El algoritmo evita revisitar cualquier solución en la lista tabu, excepto en ciertas condiciones. Esto ayuda al algoritmo a moverse a regiones nuevas e inexploradas del espacio de búsqueda.
 
-El algoritmo de búsqueda Tabu también incluye varios mecanismos para controlar la búsqueda, como estrategias de diversificación para escapar de óptimos locales, estrategias de intensificación para centrarse en regiones prometedoras y criterios de aspiración para permitir la revisión de soluciones tabu que mejoren la mejor solución actual 
+El algoritmo de búsqueda Tabu también incluye varios mecanismos para controlar la búsqueda, como estrategias de diversificación para escapar de óptimos locales, estrategias de intensificación para centrarse en regiones prometedoras y criterios de aspiración para permitir la revisión de soluciones tabu que mejoren la mejor solución actual
+
+## Algoritmos Evolutivos
+Los algoritmos evolutivos son una clase de algoritmos de optimización y búsqueda inspirados en la evolución biológica y en la teoría de la selección natural. Se basan en el proceso de selección natural para encontrar soluciones óptimas a un problema.
+
+En un algoritmo evolutivo, se crea una población inicial de posibles soluciones al problema. Luego, se aplican operaciones de selección, mutación y cruce a la población para generar una nueva generación de soluciones. Estas operaciones imitan el proceso de selección natural, mutación y reproducción en la biología.
+
+La selección asegura que las soluciones más aptas tengan una mayor probabilidad de ser seleccionadas para reproducirse, mientras que la mutación y el cruce generan nuevas soluciones a partir de soluciones existentes. El proceso de selección, mutación y cruce se repite varias veces para obtener una población de soluciones cada vez mejor adaptadas al problema.
+
+### Pseudo código
+```
+retorna un individuo
+
+función Genetic_Algorithm(población, fitness)
+    repetir 
+        pesos <- Weighted_By(población, fitness)
+        población2 <- list()
+        for i = 1 to Size(población) do
+            padre1, padre2 <- Weighted_random_Choices(población, pesos,2)
+            hijos <- Reproduce(padre1, padre2)
+            if población aleatoria pequeña then 
+                hijo <- Mutate(hijos)
+                add hijos to población2
+            población <- población2
+            until que un individuo se el mejor o termine el tiempo
+            return el mejor individuo de la población
+
+function Reproduce(padre1, padre2) retorna un individuo
+    n <- Length(padre1)
+    c <- numero aleatorio 1 y n
+    return Append(Substring(padre1,1,c), Substring(padre2,c+1,n))
+```
+## Algoritmos de Enjambres
+Los algoritmos de enjambres, también conocidos como algoritmos de inteligencia de enjambre, son un tipo de algoritmo de optimización que se basa en el comportamiento colectivo de los individuos en una colonia o enjambre para encontrar soluciones a un problema.
+
+Estos algoritmos están inspirados en el comportamiento de los animales en la naturaleza, como las abejas, los pájaros y las hormigas, que trabajan juntos en grupo para lograr objetivos comunes.
+
+En un algoritmo de enjambre, se crea una población de individuos llamados "partículas" que se mueven en un espacio de búsqueda. Cada partícula representa una posible solución al problema y se mueve a través del espacio de búsqueda, siguiendo un conjunto de reglas simples y modificando su posición en función de su propio rendimiento y del rendimiento de las partículas vecinas.
+
+La posición de cada partícula en el espacio de búsqueda es actualizada en función de su propio rendimiento y del rendimiento de las partículas vecinas. Este proceso de actualización se repite varias veces hasta que se encuentra una solución satisfactoria o se alcanza un número máximo de iteraciones.

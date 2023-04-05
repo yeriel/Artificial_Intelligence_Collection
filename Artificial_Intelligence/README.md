@@ -67,4 +67,5 @@ La metaheurística no garantiza la solución óptima, pero puede encontrar soluc
 
 - **Las metaheurísticas evolutivas** están enfocadas a los procedimientos basados en conjuntos de soluciones que evolucionan sobre el espacio de soluciones para acercarse a la solución deseada.
 
-![matahuristicas](https://www.researchgate.net/profile/Ali-Naimi-Sadigh/publication/272145791/figure/fig5/AS:370615426011143@1465373011909/A-graphical-classification-of-metaheuristics.png)
+![matahuristicas](https://upload.wikimedia.org/wikipedia/commons/2/26/Metaheur%C3%ADsticas_clasificaci%C3%B3n.png)
+

@@ -1,5 +1,3 @@
-<p align="center"><img width="100%" src="Images/torch_and_tf.svg"/></p>
-
 # Artificial Intelligence From Scratch
 
 Bienvenido al repositorio de Inteligencia Artificial! Este repositorio tiene como objetivo proporcionar una introducción completa a los conceptos fundamentales de la Inteligencia Artificial y su implementación desde cero. Si eres nuevo en este mundo o si deseas refrescar tus conocimientos, este repositorio es para ti.
@@ -25,7 +23,20 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
     * Hill Climbing
     * Simulated Annealing
     * Tabu Search
-  - Búsqueda informada (ToDo)
+    * Algoritmos Evolutivos
+    * Algoritmos de Enjambres
+
+  - Búsqueda no informada e informada
+    * Búsqueda informada
+      - ¿Que es la búsqueda no informada?
+      - En anchura (BFS)
+      - En profundidad (DFS)  
+    * Búsqueda no informada
+      - ¿Que es la búsqueda informada?
+      - Costo uniforme (UCS)
+      - Greedy
+      - A-star
+      
   - Computación Evolutiva (ToDo)
 
 ### Machine Learning
