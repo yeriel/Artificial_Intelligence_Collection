@@ -1,3 +1,5 @@
+<p align="center"><img width="100%" src="Images/torch_and_tf.svg"/></p>
+
 # Artificial Intelligence From Scratch
 
 Bienvenido al repositorio de Inteligencia Artificial! Este repositorio tiene como objetivo proporcionar una introducción completa a los conceptos fundamentales de la Inteligencia Artificial y su implementación desde cero. Si eres nuevo en este mundo o si deseas refrescar tus conocimientos, este repositorio es para ti.
