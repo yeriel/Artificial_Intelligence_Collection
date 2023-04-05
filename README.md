@@ -16,6 +16,7 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
   - Tipos de sistemas de Inteligencia Artificial
   - Artificial Intelligence vs Machine Learning vs Deep Learning
   - Algoritmos, Heuristica y Metaheuristica
+  
 * Algoritmos, Heuristica y Metaheuristica
   - Búsqueda local
     * ¿Que es la búsqueda local?
