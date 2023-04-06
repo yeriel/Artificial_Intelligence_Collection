@@ -66,9 +66,9 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
   - [K-Nearest Neighbors (KNN)](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/KNN)
   - [Principal Component Analysis (PCA)](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/PCA)
   - [Naive Bayes](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/Naive%20Bayes)
+  - [Logistic Regression](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/Logistic%20Regression) 
 
   * To Do
-    - Logistic Regression 
     - Support vector machine (SVM)
     - Decision Tree 
     - Random Forest 
