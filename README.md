@@ -40,7 +40,16 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
       - Iterative Deepening A* (IDA*)
       - Greedy & GBFS
 
-  - Computación Evolutiva (ToDo)
+  - [Computación Evolutiva](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Artificial_Intelligence/Computacion%20evolutiva)
+    - ¿Que es la Computación Evolutiva?
+    - Tipos de computación evolutiva
+    - Algoritmos Genéticos
+      * Función de Fitness
+      * Genoma y Cromosoma
+      * ¿Como diseñar un buen genoma?
+      * Mutaciones y Crossover
+      * Pseudo código
+
 
 ### Machine Learning
 * [Fundamentos](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning)
@@ -54,16 +63,18 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
 
 * [Algoritmos ML](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos)
   - [K-Nearest Neighbors (KNN)](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/KNN)
-  - Linear Regression (ToDo)
-  - Logistic Regression (ToDo)
-  - [Naive Bayes](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/Naive%20Bayes)
-  - Support vector machine (SVM) (ToDo)
-  - Decision Tree (ToDo)
-  - Random Forest (ToDo)
   - [Principal Component Analysis (PCA)](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/PCA)
-  - K-Means (ToDo)
-  - AdaBoost (ToDo)
-  - Linear Discriminant Analysis (LDA) (ToDo)
-  - Perceptron (ToDo)
+  - [Naive Bayes](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/Naive%20Bayes)
 
+  * To Do
+    - Linear Regression 
+    - Logistic Regression 
+    - Support vector machine (SVM)
+    - Decision Tree 
+    - Random Forest 
+    - K-Means 
+    - AdaBoost
+    - Linear Discriminant Analysis (LDA)
+    - Perceptron 
+    
 ### Deep Learning (ToDo)
