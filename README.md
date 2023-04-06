@@ -30,12 +30,15 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
     * Búsqueda informada
       - ¿Que es la búsqueda no informada?
       - En anchura (BFS)
-      - En profundidad (DFS)  
+      - En profundidad (DFS)
+      - En profundidad limitada (DLS)
+      - En profundidad iterativa (IDS)
     * Búsqueda no informada
       - ¿Que es la búsqueda informada?
       - Costo uniforme (UCS)
-      - Greedy
       - A-star
+      - Iterative Deepening A* (IDA*)
+      - Greedy & GBFS
 
   - Computación Evolutiva (ToDo)
 
