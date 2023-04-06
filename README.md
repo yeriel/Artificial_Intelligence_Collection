@@ -26,7 +26,7 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
     * Algoritmos Evolutivos
     * Algoritmos de Enjambres
 
-  - Búsqueda no informada e informada
+  - [Búsqueda no informada e informada](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Artificial_Intelligence/Busqueda%20informada)
     * Búsqueda informada
       - ¿Que es la búsqueda no informada?
       - En anchura (BFS)
@@ -36,7 +36,7 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
       - Costo uniforme (UCS)
       - Greedy
       - A-star
-      
+
   - Computación Evolutiva (ToDo)
 
 ### Machine Learning
