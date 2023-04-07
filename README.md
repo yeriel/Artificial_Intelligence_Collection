@@ -67,6 +67,7 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
   - [Principal Component Analysis (PCA)](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/PCA)
   - [Naive Bayes](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/Naive%20Bayes)
   - [Logistic Regression](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/Logistic%20Regression) 
+  - [Linear Discriminant Analysis (LDA)]()
 
   * To Do
     - Support vector machine (SVM)
@@ -74,7 +75,6 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
     - Random Forest 
     - K-Means 
     - AdaBoost
-    - Linear Discriminant Analysis (LDA)
     - Perceptron 
     
 ### Deep Learning (ToDo)
