@@ -67,7 +67,7 @@ Espero que este repositorio te sea de ayuda en tu viaje de aprendizaje en el mun
   - [Principal Component Analysis (PCA)](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/PCA)
   - [Naive Bayes](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/Naive%20Bayes)
   - [Logistic Regression](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/Logistic%20Regression) 
-  - [Linear Discriminant Analysis (LDA)]()
+  - [Linear Discriminant Analysis (LDA)](https://github.com/yeriel/Artificial_Intelligence_Collection/tree/main/Machine_learning/Algoritmos/Linear%20Discriminant%20Analysis)
 
   * To Do
     - Support vector machine (SVM)
